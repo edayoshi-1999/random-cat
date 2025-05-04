@@ -36,7 +36,7 @@ const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
       // ❸ ローディング中でなければ、画像を表示する
     return ( 
         <div>
-            <button onClick={handleClick}>他のにゃんこをみる</button>
+            <button onClick={handleClick}>One more cat!</button>
             <div>{loading ? <p>読み込み中...</p> : <img src={imageUrl} alt="猫の画像" />}</div>
         </div>
     );
